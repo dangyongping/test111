@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="fill_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/laySetup"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/BLACK"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:id="@+id/scrSetup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical" >
+
+            <LinearLayout
+                android:id="@+id/layRow"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/layRow0"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/layRowL0"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:id="@+id/imgEmptyL0"
+                            android:layout_width="10px"
+                            android:layout_height="@dimen/list_img_height"
+                            android:layout_marginBottom="9dp"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginRight="3dp"
+                            android:layout_marginTop="9dp"
+                            android:background="@drawable/empty" />
+
+                        <TextView
+                            android:id="@+id/txtName0"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:layout_weight="2.7"
+                            android:ellipsize="end"
+                            android:singleLine="true"
+                            android:text="@string/strUnitsTransfer"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layRowR0"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:id="@+id/imgEmptyR0"
+                            android:layout_width="10px"
+                            android:layout_height="@dimen/list_img_height"
+                            android:layout_marginBottom="9dp"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginRight="3dp"
+                            android:layout_marginTop="9dp"
+                            android:background="@drawable/empty" />
+
+                        <com.chinafeisite.tianbu.SwitchButton
+                            android:id="@+id/switchBtn0"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="160px"
+                            android:focusable="false" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imgDivider0"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/divider_horizontal" />
+
+                <LinearLayout
+                    android:id="@+id/layRow1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/layRowL1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:id="@+id/imgIcon1"
+                            android:layout_width="@dimen/list_img_width"
+                            android:layout_height="@dimen/list_img_height"
+                            android:layout_marginBottom="9dp"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginRight="3dp"
+                            android:layout_marginTop="9dp"
+                            android:src="@drawable/wifi" />
+
+                        <TextView
+                            android:id="@+id/txtName1"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:layout_weight="2.7"
+                            android:ellipsize="end"
+                            android:singleLine="true"
+                            android:text="@string/strWiFi"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layRowR1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:id="@+id/imgEmptyR1"
+                            android:layout_width="10px"
+                            android:layout_height="@dimen/list_img_height"
+                            android:layout_marginBottom="9dp"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginRight="3dp"
+                            android:layout_marginTop="9dp"
+                            android:background="@drawable/empty" />
+
+                        <com.chinafeisite.tianbu.SwitchButton
+                            android:id="@+id/switchBtn1"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="160px"
+                            android:focusable="false" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imgDivider1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/divider_horizontal" />
+
+                <LinearLayout
+                    android:id="@+id/layRow2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/layRowL2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:id="@+id/imgIcon2"
+                            android:layout_width="@dimen/list_img_width"
+                            android:layout_height="@dimen/list_img_height"
+                            android:layout_marginBottom="9dp"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginRight="3dp"
+                            android:layout_marginTop="9dp"
+                            android:src="@drawable/bluetooth" />
+
+                        <TextView
+                            android:id="@+id/txtName2"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:layout_weight="2.7"
+                            android:ellipsize="end"
+                            android:singleLine="true"
+                            android:text="@string/strBluetooth"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layRowR2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:id="@+id/imgEmptyR2"
+                            android:layout_width="10px"
+                            android:layout_height="@dimen/list_img_height"
+                            android:layout_marginBottom="9dp"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginRight="3dp"
+                            android:layout_marginTop="9dp"
+                            android:background="@drawable/empty" />
+
+                        <com.chinafeisite.tianbu.SwitchButton
+                            android:id="@+id/switchBtn2"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="160px"
+                            android:focusable="false" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imgDivider2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/divider_horizontal" />
+
+                <LinearLayout
+                    android:id="@+id/layRow3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/layRowL3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:id="@+id/imgIcon3"
+                            android:layout_width="@dimen/list_img_width"
+                            android:layout_height="@dimen/list_img_height"
+                            android:layout_marginBottom="9dp"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginRight="3dp"
+                            android:layout_marginTop="9dp"
+                            android:src="@drawable/brightness" />
+
+                        <TextView
+                            android:id="@+id/txtName3"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:layout_weight="2.7"
+                            android:ellipsize="end"
+                            android:singleLine="true"
+                            android:text="@string/strBrightness"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layRowR3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:id="@+id/imgEmptyR3"
+                            android:layout_width="10px"
+                            android:layout_height="@dimen/list_img_height"
+                            android:layout_marginBottom="9dp"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginRight="3dp"
+                            android:layout_marginTop="9dp"
+                            android:background="@drawable/empty" />
+
+                        <SeekBar
+                            android:id="@+id/seekBar3"
+                            style="@style/MediaController_SeekBar"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginRight="60px"
+                            android:focusable="false"
+                            android:max="255" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imgDivider3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/divider_horizontal" />
+
+                <LinearLayout
+                    android:id="@+id/layRow4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/layRowL4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:id="@+id/imgIcon4"
+                            android:layout_width="@dimen/list_img_width"
+                            android:layout_height="@dimen/list_img_height"
+                            android:layout_marginBottom="9dp"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginRight="3dp"
+                            android:layout_marginTop="9dp"
+                            android:src="@drawable/volume" />
+
+                        <TextView
+                            android:id="@+id/txtName4"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:layout_weight="2.7"
+                            android:ellipsize="end"
+                            android:singleLine="true"
+                            android:text="@string/strVolume"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layRowR4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:id="@+id/imgEmptyR4"
+                            android:layout_width="10px"
+                            android:layout_height="@dimen/list_img_height"
+                            android:layout_marginBottom="9dp"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginRight="3dp"
+                            android:layout_marginTop="9dp"
+                            android:background="@drawable/empty" />
+
+                        <SeekBar
+                            android:id="@+id/seekBar4"
+                            style="@style/MediaController_SeekBar"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginRight="60px"
+                            android:focusable="false"
+                            android:max="255" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imgDivider4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/divider_horizontal" />
+
+                <LinearLayout
+                    android:id="@+id/layRow5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/layRowL5"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:id="@+id/imgEmptyL5"
+                            android:layout_width="10px"
+                            android:layout_height="@dimen/list_img_height"
+                            android:layout_marginBottom="9dp"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginRight="3dp"
+                            android:layout_marginTop="9dp"
+                            android:background="@drawable/empty" />
+
+                        <TextView
+                            android:id="@+id/txtName5"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:layout_weight="2.7"
+                            android:ellipsize="end"
+                            android:singleLine="true"
+                            android:text="@string/strSysVer"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layRowR5"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:id="@+id/imgEmptyR5"
+                            android:layout_width="10px"
+                            android:layout_height="@dimen/list_img_height"
+                            android:layout_marginBottom="9dp"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginRight="3dp"
+                            android:layout_marginTop="9dp"
+                            android:background="@drawable/empty" />
+
+                        <TextView
+                            android:id="@+id/txtValue5"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginRight="60px"
+                            android:ellipsize="middle"
+                            android:gravity="right|center_vertical"
+                            android:singleLine="true"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imgDivider5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/divider_horizontal" />
+
+                <LinearLayout
+                    android:id="@+id/layRow6"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/layRowL6"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:id="@+id/imgEmptyL6"
+                            android:layout_width="10px"
+                            android:layout_height="@dimen/list_img_height"
+                            android:layout_marginBottom="9dp"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginRight="3dp"
+                            android:layout_marginTop="9dp"
+                            android:background="@drawable/empty" />
+
+                        <TextView
+                            android:id="@+id/txtName6"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:layout_weight="2.7"
+                            android:ellipsize="end"
+                            android:singleLine="true"
+                            android:text="@string/strBackDef"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layRowR6"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:id="@+id/imgEmptyR6"
+                            android:layout_width="10px"
+                            android:layout_height="@dimen/list_img_height"
+                            android:layout_marginBottom="9dp"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginRight="3dp"
+                            android:layout_marginTop="9dp"
+                            android:background="@drawable/empty" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

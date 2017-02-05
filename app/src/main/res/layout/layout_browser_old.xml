@@ -1,0 +1,121 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/layoutWebView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <WebView
+            android:id="@+id/wvBrowser"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/str_null"
+            android:visibility="gone" />
+
+        <include layout="@+layout/layout_browser_loading" />
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/gvBrowserNews"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="@dimen/browser_news_spacing"
+        android:layout_marginLeft="@dimen/browser_news_margin"
+        android:layout_marginRight="@dimen/browser_news_margin"
+        android:layout_marginTop="@dimen/browser_news_spacing"
+        android:columnWidth="@dimen/browser_news_width"
+        android:gravity="center"
+        android:horizontalSpacing="@dimen/browser_news_horizontal_spacing"
+        android:listSelector="#00000000"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="@dimen/browser_news_spacing"
+        android:visibility="gone" />
+
+    <GridView
+        android:id="@+id/gvBrowserShopping"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="@dimen/browser_news_spacing"
+        android:layout_marginLeft="@dimen/browser_news_margin"
+        android:layout_marginRight="@dimen/browser_news_margin"
+        android:layout_marginTop="@dimen/browser_news_spacing"
+        android:columnWidth="@dimen/browser_news_width"
+        android:gravity="center"
+        android:horizontalSpacing="@dimen/browser_news_horizontal_spacing"
+        android:listSelector="#00000000"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="@dimen/browser_news_spacing"
+        android:visibility="gone" />
+
+    <GridView
+        android:id="@+id/gvBrowserFavourite"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="@dimen/browser_favourite_spacing"
+        android:layout_marginLeft="@dimen/browser_favourite_margin"
+        android:layout_marginRight="@dimen/browser_favourite_margin"
+        android:layout_marginTop="@dimen/browser_favourite_spacing"
+        android:columnWidth="@dimen/browser_favourite_width"
+        android:gravity="center"
+        android:horizontalSpacing="@dimen/browser_favourite_horizontal_spacing"
+        android:listSelector="#00000000"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="@dimen/browser_favourite_spacing"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/layoutBrowserUrl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/browser_loadurl_margin"
+        android:layout_marginRight="@dimen/browser_loadurl_margin"
+        android:layout_marginTop="@dimen/browser_loadurl_margin"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:shadowColor="@+color/BLACK"
+            android:shadowDx="2.0"
+            android:shadowDy="2.0"
+            android:shadowRadius="2.0"
+            android:singleLine="true"
+            android:text="@+string/browser_url_inputhint"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textSize="26.0sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtUrlAddress"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@+string/browser_url_address"
+            android:inputType="textUri"
+            android:isScrollContainer="true"
+            android:singleLine="false"
+            android:textSize="20.0sp" />
+
+        <Button
+            android:id="@+id/btnUrlGo"
+            android:layout_width="@dimen/browser_btn_width"
+            android:layout_height="@dimen/browser_btn_height"
+            android:layout_gravity="right"
+            android:shadowColor="@+color/WHITE"
+            android:shadowDx="2.0"
+            android:shadowDy="2.0"
+            android:shadowRadius="2.0"
+            android:text="@+string/browser_url_ok"
+            android:textColor="@+color/BLACK"
+            android:textSize="26.0sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

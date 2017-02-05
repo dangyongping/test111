@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ListView
+        android:id="@+id/lvPicture"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:cacheColorHint="#00000000"
+        android:choiceMode="singleChoice" >
+    </ListView>
+
+    <RelativeLayout
+        android:id="@+id/layImage"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/BLACK"
+        android:scrollbars="horizontal"
+        android:visibility="invisible" >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

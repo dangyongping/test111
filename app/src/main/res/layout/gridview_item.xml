@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="364px"
+                android:layout_height="174px">
+
+    <ImageView
+        android:id="@+id/iv_house"
+        android:layout_width="329px"
+        android:layout_height="139px"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/fangjian"/>
+
+    <ImageView
+        android:id="@+id/headimg"
+        android:layout_width="69px"
+        android:layout_height="69px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/touxiang"/>
+
+    <TextView
+        android:textSize="18px"
+        android:id="@+id/nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5px"
+        android:layout_marginTop="5px"
+        android:layout_toRightOf="@id/headimg"
+        android:text="小明"
+        android:textColor="@color/WHITE"/>
+
+    <TextView
+        android:id="@+id/house_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="沙漠风暴"
+        android:textColor="@color/WHITE"/>
+
+    <TextView
+        android:id="@+id/house_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="1000"
+        android:textColor="#FF021C"/>
+
+</RelativeLayout>

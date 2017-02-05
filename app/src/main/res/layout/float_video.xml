@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layVideo"
+    android:layout_width="372px"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layPlay"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            style="@style/MediaController_SeekBar"
+            android:layout_width="372px"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="730px"
+            android:focusable="true"
+            android:max="1000" />
+
+        <TextView
+            android:id="@+id/txtCurrent"
+            style="@style/MediaController_Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="795px"
+            android:text="@string/str_timer"/>
+
+        <TextView
+            android:id="@+id/txtTotal"
+            style="@style/MediaController_Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="282px"
+            android:layout_marginTop="795px"
+            android:text="@string/str_timer" />
+
+        <Button
+            android:id="@+id/btnPlay"
+            android:layout_width="125px"
+            android:layout_height="125px"
+            android:layout_marginLeft="126px"
+            android:layout_marginTop="500px"
+            android:background="@drawable/btn_music_play"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btnPause"
+            android:layout_width="125px"
+            android:layout_height="125px"
+            android:layout_marginLeft="126px"
+            android:layout_marginTop="500px"
+            android:background="@drawable/btn_music_pause" />
+    </RelativeLayout>
+
+</LinearLayout>

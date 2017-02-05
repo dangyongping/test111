@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#27221E"
+    android:orientation="horizontal"
+    tools:context="com.chinafeisite.tianbu.SenceActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/ll"
+        android:layout_marginTop="150px"
+        android:layout_marginLeft="34px"
+        android:layout_marginRight="34px"
+        android:background="#040203"
+        android:layout_width="1852px"
+        android:layout_height="883px">
+
+        <GridView
+            android:id="@+id/gv_Sence"
+            android:numColumns="5"
+            android:verticalSpacing="28dp"
+            android:horizontalSpacing="28dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></GridView>
+    </LinearLayout>
+    <Button
+        android:id="@+id/back"
+        android:layout_marginRight="146px"
+        android:layout_marginTop="75px"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/gohome_select"
+        android:layout_width="75px"
+        android:layout_height="75px"/>
+    <Button
+        android:id="@+id/goHome"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="75px"
+        android:layout_marginRight="63px"
+        android:background="@drawable/back"
+        android:layout_width="80px"
+        android:layout_height="70px"/>
+     <!--<Button
+         android:id="@+id/bttt"
+             android:text="兔儿岭"
+             android:layout_width="80px"
+             android:layout_height="80px"/>
+-->
+    </RelativeLayout>

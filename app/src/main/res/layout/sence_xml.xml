@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+              android:layout_width="340px"
+              android:layout_height="192px">
+    <ImageView
+        android:id="@+id/iv_sencelist"
+        android:layout_width="340px"
+        android:layout_height="192px"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="340px"
+        android:layout_height="192px">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="145px"></LinearLayout>
+        <TextView
+            android:textSize="24px"
+            android:textStyle="bold"
+            android:textColor="@color/WHITE"
+            android:gravity="center_horizontal"
+            android:id="@+id/tv"
+            android:text="ss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+
+</FrameLayout>

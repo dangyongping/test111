@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layTop"
+    android:layout_width="1920px"
+    android:layout_height="114px"
+    android:orientation="vertical" >
+   
+    <RelativeLayout
+        android:id="@+id/layOsd1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <com.chinafeisite.tianbu.OsdView1
+            android:id="@+id/osdView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layOsd2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <com.chinafeisite.tianbu.OsdView2
+            android:id="@+id/osdView2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </RelativeLayout>
+
+</FrameLayout>

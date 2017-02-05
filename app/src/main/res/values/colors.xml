@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="WHITE">#ffffffff</color>
+    <color name="BLACK">#00000000</color>
+    <color name="GREEN">#ff99cc33</color>
+    <color name="HIGHGREEN">#ff00cc00</color>
+    <color name="BLUE">#ff003399</color>
+    <color name="HIGHBLUE">#ff6699ff</color>
+    <color name="GRAYBLUE">#ff1f6083</color>
+    <color name="GRAY">#ffaaaaaa</color>
+    <color name="HIGHGRAY">#ffaaaaaa</color>
+    <color name="RED">#ffff0000</color>
+    <color name="HIGHLIGHTGRAY">#fff8f8f8</color>
+    <color name="HIGHYELLOW">#fff6ff00</color>
+    <color name="BLACKGRAY">#ff111111</color>
+    <color name="bar_bg">#1f6699ff</color>
+    <color name="minvalue">#ff15ab01</color>
+    <color name="maxvalue">#ffee2106</color>
+    <color name="item_bg">#30004080</color>
+    <color name="browser_bar_bg">#9f4d4d4d</color>
+	<color name="transparent">#9000</color> 
+</resources>

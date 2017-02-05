@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="ContentDescription">
+        <ignore path="res/layout/gridview_item_browser_favourite.xml" />
+        <ignore path="res/layout/gridview_item_browser_news.xml" />
+        <ignore path="res/layout/item_grid_app.xml" />
+        <ignore path="res/layout/layout_browser.xml" />
+        <ignore path="res/layout/layout_music.xml" />
+        <ignore path="res/layout/layout_picture.xml" />
+        <ignore path="res/layout/layout_picture_list.xml" />
+        <ignore path="res/layout/layout_setup.xml" />
+        <ignore path="res/layout/list_row.xml" />
+        <ignore path="res/layout/list_row_setup.xml" />
+        <ignore path="res/layout/list_row_setup0.xml" />
+        <ignore path="res/layout/url_autocomplete_line.xml" />
+    </issue>
+    <issue id="DisableBaselineAlignment">
+        <ignore path="res/layout/layout_setup.xml" />
+        <ignore path="res/layout/list_row_setup.xml" />
+        <ignore path="res/layout/list_row_setup0.xml" />
+    </issue>
+    <issue id="HardcodedText">
+        <ignore path="res/layout/activity_main.xml" />
+        <ignore path="res/layout/float_video.xml" />
+        <ignore path="res/layout/layout_browser.xml" />
+        <ignore path="res/layout/layout_music.xml" />
+        <ignore path="res/layout/layout_video.xml" />
+    </issue>
+    <issue id="InefficientWeight">
+        <ignore path="res/layout/layout_setup.xml" />
+        <ignore path="res/layout/layout_wifi.xml" />
+        <ignore path="res/layout/list_row.xml" />
+        <ignore path="res/layout/list_row_setup.xml" />
+        <ignore path="res/layout/list_row_setup0.xml" />
+    </issue>
+    <issue id="NestedWeights">
+        <ignore path="res/layout/layout_setup.xml" />
+        <ignore path="res/layout/list_row_setup.xml" />
+        <ignore path="res/layout/list_row_setup0.xml" />
+    </issue>
+    <issue id="ObsoleteLayoutParam">
+        <ignore path="res/layout/layout_browser_loading.xml" />
+    </issue>
+    <issue id="PxUsage">
+        <ignore path="res/layout/activity_main.xml" />
+        <ignore path="res/layout/float_bottom.xml" />
+        <ignore path="res/layout/float_bottom_switch.xml" />
+        <ignore path="res/layout/float_switch.xml" />
+        <ignore path="res/layout/float_top.xml" />
+        <ignore path="res/layout/float_top_switch.xml" />
+        <ignore path="res/layout/float_video.xml" />
+        <ignore path="res/layout/item_grid_app.xml" />
+        <ignore path="res/layout/item_grid_image.xml" />
+        <ignore path="res/layout/layout_browser.xml" />
+        <ignore path="res/layout/layout_music.xml" />
+        <ignore path="res/layout/layout_setup.xml" />
+        <ignore path="res/layout/layout_video.xml" />
+        <ignore path="res/layout/layout_wifi.xml" />
+        <ignore path="res/layout/list_row.xml" />
+        <ignore path="res/layout/list_row_setup.xml" />
+        <ignore path="res/layout/list_row_setup0.xml" />
+    </issue>
+    <issue id="SmallSp">
+        <ignore path="res/layout/url_autocomplete_line.xml" />
+    </issue>
+    <issue id="SpUsage">
+        <ignore path="res/layout/list_item.xml" />
+    </issue>
+    <issue id="UseCompoundDrawables">
+        <ignore path="res/layout/item_grid_app.xml" />
+        <ignore path="res/layout/layout_setup.xml" />
+        <ignore path="res/layout/list_row_setup.xml" />
+    </issue>
+    <issue id="UselessLeaf">
+        <ignore path="res/layout/layout_video.xml" />
+    </issue>
+    <issue id="UselessParent">
+        <ignore path="res/layout/activity_main.xml" />
+        <ignore path="res/layout/float_top.xml" />
+        <ignore path="res/layout/float_video.xml" />
+        <ignore path="res/layout/layout_apps.xml" />
+        <ignore path="res/layout/layout_browser.xml" />
+        <ignore path="res/layout/layout_browser_loading.xml" />
+        <ignore path="res/layout/layout_picture.xml" />
+        <ignore path="res/layout/layout_setup.xml" />
+        <ignore path="res/layout/layout_video.xml" />
+        <ignore path="res/layout/layout_wifi.xml" />
+        <ignore path="res/layout/list_row.xml" />
+        <ignore path="res/layout/list_row_setup.xml" />
+        <ignore path="res/layout/list_row_setup0.xml" />
+    </issue>
+</lint>

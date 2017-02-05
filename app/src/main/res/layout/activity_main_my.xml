@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layMain"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <RelativeLayout
+            android:id="@+id/layJpg"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <com.chinafeisite.tianbu.JpgView
+                android:id="@+id/jpgView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </RelativeLayout>
+
+        <!-- -->
+        <RelativeLayout
+			android:id="@+id/layVideoMain"
+			android:layout_width="1px"
+            android:layout_height="1px"
+            android:layout_marginLeft="0px"
+            android:layout_marginTop="0px" >
+			 <!--
+			<com.chinafeisite.tianbu.VideoViewEx
+                android:id="@+id/videoViewMain"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+			-->
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layOsd1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <com.chinafeisite.tianbu.OsdView1
+                android:id="@+id/osdView1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layOsd2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <com.chinafeisite.tianbu.OsdView2
+                android:id="@+id/osdView2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layOsd3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <com.chinafeisite.tianbu.OsdView3
+                android:id="@+id/osdView3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layOsd4"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <com.chinafeisite.tianbu.OsdView4
+                android:id="@+id/osdView4"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </RelativeLayout>
+
+		<!--1280 * 800 beiai
+		<RelativeLayout
+		android:id="@+id/layContent"
+		android:layout_width="fill_parent"
+		android:layout_height="706px"
+		android:layout_marginTop="94px" >
+		</RelativeLayout>
+
+		<LinearLayout
+		android:id="@+id/layAppsVpi"
+		android:layout_width="fill_parent"
+		android:layout_height="706px"
+		android:layout_marginTop="94px"
+		android:orientation="vertical" >
+
+		<android.support.v4.view.ViewPager
+			android:id="@+id/vpApps"
+			android:layout_width="fill_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1" />
+
+		<com.chinafeisite.tianbu.ViewPagerIndicator
+			android:id="@+id/vpiApps"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:padding="10dip" />
+		</LinearLayout>
+		-->
+		<!--1280 * 800 6808
+		<RelativeLayout
+		android:id="@+id/layContent"
+		android:layout_width="fill_parent"
+		android:layout_height="613px"
+		android:layout_marginTop="105px" >
+		</RelativeLayout>
+
+		<LinearLayout
+		android:id="@+id/layAppsVpi"
+		android:layout_width="fill_parent"
+		android:layout_height="613px"
+		android:layout_marginTop="105px"
+		android:orientation="vertical" >
+
+		<android.support.v4.view.ViewPager
+			android:id="@+id/vpApps"
+			android:layout_width="fill_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1" />
+
+		<com.chinafeisite.tianbu.ViewPagerIndicator
+			android:id="@+id/vpiApps"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:padding="10dip" />
+		</LinearLayout>
+		-->
+		<!--1366 * 768 MBH5812
+		<RelativeLayout
+            android:id="@+id/layContent"
+            android:layout_width="fill_parent"
+            android:layout_height="565px"
+            android:layout_marginTop="94px" >
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/layAppsVpi"
+            android:layout_width="fill_parent"
+            android:layout_height="565px"
+            android:layout_marginTop="94px"
+            android:orientation="vertical" >
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/vpApps"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <com.chinafeisite.tianbu.ViewPagerIndicator
+                android:id="@+id/vpiApps"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dip" />
+        </LinearLayout>
+		-->
+			<!--1366 * 768 ZXV8
+		<RelativeLayout
+            android:id="@+id/layContent"
+            android:layout_width="fill_parent"
+            android:layout_height="596px"
+            android:layout_marginTop="81px" >
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/layAppsVpi"
+            android:layout_width="fill_parent"
+            android:layout_height="596px"
+            android:layout_marginTop="81px"
+            android:orientation="vertical" >
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/vpApps"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <com.chinafeisite.tianbu.ViewPagerIndicator
+                android:id="@+id/vpiApps"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dip" />
+        </LinearLayout>
+		-->
+		<!--1366 * 768 BLTW
+		<RelativeLayout
+            android:id="@+id/layContent"
+            android:layout_width="fill_parent"
+            android:layout_height="570px"
+            android:layout_marginTop="107px" >
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/layAppsVpi"
+            android:layout_width="fill_parent"
+            android:layout_height="570px"
+            android:layout_marginTop="107px"
+            android:orientation="vertical" >
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/vpApps"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <com.chinafeisite.tianbu.ViewPagerIndicator
+                android:id="@+id/vpiApps"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dip" />
+        </LinearLayout>
+		-->
+		<!--1366 * 768 TZ
+		<RelativeLayout
+            android:id="@+id/layContent"
+            android:layout_width="fill_parent"
+            android:layout_height="589px"
+            android:layout_marginTop="100px" >
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/layAppsVpi"
+            android:layout_width="fill_parent"
+            android:layout_height="589px"
+            android:layout_marginTop="100px"
+            android:orientation="vertical" >
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/vpApps"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <com.chinafeisite.tianbu.ViewPagerIndicator
+                android:id="@+id/vpiApps"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dip" />
+        </LinearLayout>
+		-->
+		<!--1920 * 1080 -->
+       <!-- DHZ9100
+        <RelativeLayout
+            android:id="@+id/layContent"
+            android:layout_width="fill_parent"
+            android:layout_height="831px"
+            android:layout_marginTop="141px" >
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/layAppsVpi"
+            android:layout_width="fill_parent"
+            android:layout_height="831px"
+            android:layout_marginTop="141px"
+            android:orientation="vertical" >
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/vpApps"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <com.chinafeisite.tianbu.ViewPagerIndicator
+                android:id="@+id/vpiApps"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dip" />
+        </LinearLayout>
+		-->
+
+          <!-- MBH9900   -->
+        <RelativeLayout
+            android:id="@+id/layContent"
+            android:layout_width="fill_parent"
+            android:layout_height="839px"
+            android:layout_marginTop="114px" >
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/layAppsVpi"
+            android:layout_width="fill_parent"
+            android:layout_height="825px"
+            android:layout_marginTop="142px"
+            android:orientation="vertical" >
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/vpApps"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+		<!-- WNQ156
+        <RelativeLayout
+            android:id="@+id/layContent"
+            android:layout_width="fill_parent"
+            android:layout_height="823px"
+            android:layout_marginTop="142px" >
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/layAppsVpi"
+            android:layout_width="fill_parent"
+            android:layout_height="823px"
+            android:layout_marginTop="142px"
+            android:orientation="vertical" >
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/vpApps"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <com.chinafeisite.tianbu.ViewPagerIndicator
+                android:id="@+id/vpiApps"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dip" />
+        </LinearLayout>
+		-->
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="14dp"
+            android:id="@+id/tv_time"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:text="12:30"
+            android:textSize="24px"
+            android:textColor="@color/WHITE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+</FrameLayout>
