@@ -100,6 +100,7 @@ public class CompetitionActivity
 
     private void jiashuju() {
         //mRoomList = new ArrayList<String>();
+        int aaa = 0 ;
         sData = new ArrayList<String>();
         for (int i = 0; i < 40; i++) {
             sData.add(i + "");
